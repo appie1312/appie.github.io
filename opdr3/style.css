@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(42, 42, 42);
+}
+
+.navbar-custom {
+    background-color: rgba(248, 249, 250, 1);
+    height: 56px;
+    z-index: -10000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/* Zorg dat bij het openklappen de hele achtergrond wit is */
+.navbar-collapse.show {
+    position: fixed;           
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;             /* Volledige hoogte van het scherm */
+    background-color: rgba(248, 249, 250, 1);   /* Witte achtergrond */
+}
+
+.navbar-collapse.show .navbar-nav {
+  margin-top: 3rem; /* pas aan naar wens */
+  padding-left: 12px;
+}
+
+/* Zorg dat de links mooi zichtbaar zijn */
+

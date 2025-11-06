@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Merriweather Sans";
+    src: url('/src/assets/fonts/merriweaher/MerriweatherSans-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('/src/assets/fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 10rem;
+    color: #346473;
+}
+
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #111111;
+}
+
+h4 {
+    font-family: 'Open Sans';
+    color: #111111;
+}
+
+
+.transparant {
+    background-color: #FFFFFF99;
+}
